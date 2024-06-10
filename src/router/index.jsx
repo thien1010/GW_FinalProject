@@ -1,6 +1,5 @@
-import AuthLayout from "../components/layouts/AuthLayout";
-import { PATH } from "../constant";
-
+import { AuthLayout } from "../components";
+import {PATH} from "../constant"
 export const router = [
   {
     element: <AuthLayout />,
