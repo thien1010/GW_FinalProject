@@ -1,8 +1,18 @@
-# React + Vite
+## Install Package
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. TailwindCss
+2. React-router-dom
+3. Redux toolkit
+4. React-redux
+5. antd (andesign)
+6. styled-components
+7. @types/styled-components
+8. Axios
+9. classnames
+10. qs
+11. react-hook-form
+12. zod
+13. @hookform/resolvers
+14. @types/node
+15. sass
+16. react-toastify
