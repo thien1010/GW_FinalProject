@@ -1,9 +1,5 @@
-import React from 'react'
+import React from "react";
 
-const AuthLayout = () => {
-  return (
-    <div>AuthLayout</div>
-  )
-}
-
-export default AuthLayout
+export const AuthLayout = () => {
+  return <div>Adjdhhdjnsjuj</div>;
+};
