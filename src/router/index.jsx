@@ -1,5 +1,6 @@
 import { AuthLayout } from "../components";
-import {PATH} from "../constant"
+import { PATH } from "constant";
+
 export const router = [
   {
     element: <AuthLayout />,
@@ -13,3 +14,4 @@ export const router = [
     ],
   },
 ];
+    
