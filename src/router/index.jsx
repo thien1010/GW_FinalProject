@@ -1,3 +1,4 @@
+import { Login, Register } from "pages";
 import { AuthLayout } from "../components";
 import { PATH } from "constant";
 
@@ -7,11 +8,12 @@ export const router = [
     children: [
       {
         path: PATH.login,
+        element: <Login />,
       },
       {
         path: PATH.register,
+        element: <Register />,
       },
     ],
   },
 ];
-    
