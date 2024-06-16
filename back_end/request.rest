@@ -1,0 +1,19 @@
+GET http://localhost:3001/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEyLCJmdWxsbmFtZSI6Ik5nIE4gTWluaCBBbmgiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3MTg0NzA0OTQsImV4cCI6MTcxODU1Njg5NH0.mO9e3QoPTtaz9XH71EtJitYVV2_qWBuMLjGVPBreVKs
+###
+POST http://localhost:3001/register
+Content-Type: application/json
+{
+    "fullname": "Ng N Minh Anh",
+    "email": "vvv@gmail.com",
+    "password": "12345678",
+    "confPassword": "12345678"
+
+}
+###
+POST http://localhost:3001/login
+Content-Type: application/json
+{
+    "email": "nguyenanh1904.vn@gmail.com",
+    "password": "12345678"
+}
