@@ -2,8 +2,8 @@ import { useAuth } from "hooks";
 import { Navigate, Outlet } from "react-router-dom";
 
 export const AuthLayout = () => {
-  const { accesstoken } = useAuth();
-  if (accesstoken) {
+  const { token } = useAuth();
+  if (token) {
     return <Navigate to="/" replace />;
   }
   return <Outlet />;

@@ -30,7 +30,7 @@ export const LoginTemplate = () => {
     dispatch(loginThunk(data))
       .unwrap()
       .then(() => {
-        toast.success("Login successfully");
+        // toast.success("Login successfully");
       })
       .catch((error) => {
         //xử lý action thất bại
@@ -45,7 +45,7 @@ export const LoginTemplate = () => {
             <div className="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
               <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
                 <h1 className="text-xl font-bold leading-tight tracking-tight text-white md:text-2xl dark:text-whit text-center">
-                  Create an account
+                  Login
                 </h1>
                 <form
                   className="space-y-4 md:space-y-6"
@@ -93,22 +93,6 @@ export const LoginTemplate = () => {
                       </p>
                     )}
                   </div>
-                  <div>
-                    <label
-                      htmlFor="confirm-password"
-                      className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-                    >
-                      Confirm password
-                    </label>
-                    <input
-                      type="password"
-                      name="confirm-password"
-                      id="confirm-password"
-                      placeholder="••••••••"
-                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                      required
-                    />
-                  </div>
 
                   <Button
                     type="submit"
@@ -125,7 +109,7 @@ export const LoginTemplate = () => {
                       onClick={() => navigate(PATH.register)}
                       className="font-medium text-primary-600 hover:underline dark:text-primary-500"
                     >
-                      Login here
+                      Register here
                     </a>
                   </p>
                 </form>

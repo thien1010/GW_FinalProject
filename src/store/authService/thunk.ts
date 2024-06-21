@@ -22,7 +22,7 @@ export const getUserByTokenThunk = createAsyncThunk(
     try {
       const token = getToken();
       if (!token) {
-        console.error("No token found in storage."); // Updated error message
+        console.error("No token found in storage."); 
         throw new Error("No token found");
       }
       const response = await userService.getUserByToken({ token });

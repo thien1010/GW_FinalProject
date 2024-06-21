@@ -3,6 +3,5 @@ export type UserLogin = {
   fullname: string;
   email: string;
   password: string;
-  confPassword: string;
-  accesstoken: string;
+  token: string;
 };

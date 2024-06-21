@@ -3,7 +3,7 @@ import { RootState, useAppDispatch } from "store";
 import { getUserByTokenThunk } from "store/authService";
 
 export const useAuth = () => {
-  const { accesstoken, userLogin } = useSelector(
+  const { token, userLogin } = useSelector(
     (state: RootState) => state.authService
   );
   const dispatch = useAppDispatch();
@@ -11,5 +11,5 @@ export const useAuth = () => {
     dispatch(getUserByTokenThunk());
   }
 
-  return { accesstoken, user: userLogin };
+  return { token, user: userLogin };
 };
